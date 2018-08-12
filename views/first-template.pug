@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title Log into Google
+  body
+    form(action='http://localhost:3000/auth/google', method='GET')
+      p
+        | First Name: 
+        input(type='text', name='first-name')
+      p
+        | Password : 
+        input(type='text', name='password')
+      input(type='submit', value='Submit')
+
+
